@@ -1,15 +1,15 @@
 #include <ThingSpeak.h>
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "Freebox-AAD1EE";
-const char* password = "carente2-fabellis@-exarmata6!-deglutiat#8";
+const char* ssid     = "";
+const char* password = "";
 const int ldrPin = A0; // Defining LDR PIN 
 int input_val = 0;  // Varible to store Input values
 
 
 WiFiClient  client;
-long myChannelNumber = 1256624;
-const char myWriteAPIKey[] = "Y81YHY93ZFAP98PR";
+long myChannelNumber = ;
+const char myWriteAPIKey[] = "";
 
 void setup() {
    Serial.begin(9600); 
